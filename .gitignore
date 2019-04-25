@@ -9,6 +9,9 @@
 *.lo
 *.o
 *.obj
+bsyn_lu
+eqwidt_lu
+babsma_lu
 
 # Precompiled Headers
 *.gch
