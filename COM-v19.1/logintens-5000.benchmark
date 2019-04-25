@@ -1,4 +1,4 @@
-Fri Mar 15 11:39:48 CET 2019
+Thu Apr 25 18:11:09 CEST 2019
  
  ***********************
  * BABSMA version 19.1 *
@@ -265,7 +265,7 @@ Fri Mar 15 11:39:48 CET 2019
  using Tsuji's old data for C C C H H H H       
  using Tsuji's old data for C C C N             
  Atomic partition function data read
- MARCS model. romod=   0.0000000E+00 rocalc=   3.8410691E-11
+ MARCS model. romod=   0.0000000E+00 rocalc=   3.8405966E-11
  H-      
   H      
  FeI     
@@ -310,117 +310,117 @@ Fri Mar 15 11:39:48 CET 2019
  H-sc    
  H2sc    
  He-sc   
-tau,T,Pe,Pg,ro   1  3.918E-05   3304.3  4.354E-04  8.327E+00  3.841E-11
- MARCS model. romod=   0.0000000E+00 rocalc=   5.3611341E-11
-tau,T,Pe,Pg,ro   2  6.052E-05   3358.7  6.382E-04  1.181E+01  5.361E-11
- MARCS model. romod=   0.0000000E+00 rocalc=   7.2670238E-11
-tau,T,Pe,Pg,ro   3  8.974E-05   3414.5  9.131E-04  1.628E+01  7.267E-11
- MARCS model. romod=   0.0000000E+00 rocalc=   9.6828698E-11
-tau,T,Pe,Pg,ro   4  1.302E-04   3468.0  1.277E-03  2.203E+01  9.683E-11
- MARCS model. romod=   0.0000000E+00 rocalc=   1.2760269E-10
-tau,T,Pe,Pg,ro   5  1.867E-04   3519.7  1.758E-03  2.947E+01  1.276E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   1.6686623E-10
-tau,T,Pe,Pg,ro   6  2.668E-04   3570.2  2.391E-03  3.909E+01  1.669E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   2.1690813E-10
+tau,T,Pe,Pg,ro   1  3.918E-05   3304.3  4.354E-04  8.326E+00  3.841E-11
+ MARCS model. romod=   0.0000000E+00 rocalc=   5.3604982E-11
+tau,T,Pe,Pg,ro   2  6.052E-05   3358.7  6.382E-04  1.181E+01  5.360E-11
+ MARCS model. romod=   0.0000000E+00 rocalc=   7.2661994E-11
+tau,T,Pe,Pg,ro   3  8.974E-05   3414.5  9.131E-04  1.628E+01  7.266E-11
+ MARCS model. romod=   0.0000000E+00 rocalc=   9.6818151E-11
+tau,T,Pe,Pg,ro   4  1.302E-04   3468.0  1.277E-03  2.203E+01  9.682E-11
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.2758933E-10
+tau,T,Pe,Pg,ro   5  1.867E-04   3519.7  1.758E-03  2.946E+01  1.276E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.6684930E-10
+tau,T,Pe,Pg,ro   6  2.668E-04   3570.2  2.391E-03  3.908E+01  1.668E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.1688688E-10
 tau,T,Pe,Pg,ro   7  3.812E-04   3620.2  3.225E-03  5.152E+01  2.169E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   2.8061461E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.8058794E-10
 tau,T,Pe,Pg,ro   8  5.461E-04   3670.1  4.320E-03  6.757E+01  2.806E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   3.6159581E-10
-tau,T,Pe,Pg,ro   9  7.863E-04   3720.2  5.757E-03  8.826E+01  3.616E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   4.6443976E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   3.6156264E-10
+tau,T,Pe,Pg,ro   9  7.863E-04   3720.2  5.757E-03  8.825E+01  3.616E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   4.6439835E-10
 tau,T,Pe,Pg,ro  10  1.138E-03   3770.6  7.637E-03  1.149E+02  4.644E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   5.9517830E-10
-tau,T,Pe,Pg,ro  11  1.660E-03   3820.8  1.009E-02  1.492E+02  5.952E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   6.7302780E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   5.9512678E-10
+tau,T,Pe,Pg,ro  11  1.660E-03   3820.8  1.009E-02  1.492E+02  5.951E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   6.7297057E-10
 tau,T,Pe,Pg,ro  12  2.008E-03   3846.8  1.159E-02  1.699E+02  6.730E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   7.6075607E-10
-tau,T,Pe,Pg,ro  13  2.434E-03   3872.6  1.330E-02  1.933E+02  7.608E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   8.5962826E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   7.6069245E-10
+tau,T,Pe,Pg,ro  13  2.434E-03   3872.6  1.330E-02  1.933E+02  7.607E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   8.5955754E-10
 tau,T,Pe,Pg,ro  14  2.957E-03   3898.4  1.525E-02  2.199E+02  8.596E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   9.7098518E-10
-tau,T,Pe,Pg,ro  15  3.597E-03   3924.3  1.747E-02  2.500E+02  9.710E-10
- MARCS model. romod=   0.0000000E+00 rocalc=   1.0964218E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   9.7090624E-10
+tau,T,Pe,Pg,ro  15  3.597E-03   3924.3  1.747E-02  2.500E+02  9.709E-10
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.0963339E-09
 tau,T,Pe,Pg,ro  16  4.385E-03   3950.3  2.000E-02  2.842E+02  1.096E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   1.2376615E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.2375637E-09
 tau,T,Pe,Pg,ro  17  5.356E-03   3976.5  2.290E-02  3.229E+02  1.238E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   1.3966764E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.3965680E-09
 tau,T,Pe,Pg,ro  18  6.551E-03   4002.8  2.619E-02  3.668E+02  1.397E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   1.5756528E-09
-tau,T,Pe,Pg,ro  19  8.024E-03   4029.3  2.995E-02  4.166E+02  1.576E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   1.7774163E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.5755316E-09
+tau,T,Pe,Pg,ro  19  8.024E-03   4029.3  2.995E-02  4.165E+02  1.576E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.7772825E-09
 tau,T,Pe,Pg,ro  20  9.847E-03   4056.1  3.424E-02  4.730E+02  1.777E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   2.0042965E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.0041468E-09
 tau,T,Pe,Pg,ro  21  1.210E-02   4083.5  3.914E-02  5.370E+02  2.004E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   2.2600128E-09
-tau,T,Pe,Pg,ro  22  1.489E-02   4111.4  4.475E-02  6.097E+02  2.260E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   2.5475577E-09
-tau,T,Pe,Pg,ro  23  1.836E-02   4140.2  5.118E-02  6.920E+02  2.548E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   2.8709983E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.2598472E-09
+tau,T,Pe,Pg,ro  22  1.489E-02   4111.4  4.475E-02  6.096E+02  2.260E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.5473739E-09
+tau,T,Pe,Pg,ro  23  1.836E-02   4140.2  5.118E-02  6.920E+02  2.547E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   2.8707952E-09
 tau,T,Pe,Pg,ro  24  2.265E-02   4170.0  5.857E-02  7.855E+02  2.871E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   3.2342080E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   3.2339849E-09
 tau,T,Pe,Pg,ro  25  2.799E-02   4201.2  6.706E-02  8.915E+02  3.234E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   3.6417902E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   3.6415444E-09
 tau,T,Pe,Pg,ro  26  3.461E-02   4234.1  7.686E-02  1.012E+03  3.642E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   4.0992076E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   4.0989367E-09
 tau,T,Pe,Pg,ro  27  4.284E-02   4268.9  8.818E-02  1.148E+03  4.099E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   4.6109019E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   4.6106075E-09
 tau,T,Pe,Pg,ro  28  5.308E-02   4306.7  1.014E-01  1.303E+03  4.611E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   5.1825357E-09
-tau,T,Pe,Pg,ro  29  6.578E-02   4347.5  1.167E-01  1.478E+03  5.183E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   5.8202452E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   5.1822155E-09
+tau,T,Pe,Pg,ro  29  6.578E-02   4347.5  1.167E-01  1.478E+03  5.182E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   5.8199019E-09
 tau,T,Pe,Pg,ro  30  8.158E-02   4392.1  1.346E-01  1.677E+03  5.820E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   6.5305228E-09
-tau,T,Pe,Pg,ro  31  1.012E-01   4441.9  1.556E-01  1.903E+03  6.531E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   7.3194331E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   6.5301551E-09
+tau,T,Pe,Pg,ro  31  1.012E-01   4441.9  1.556E-01  1.903E+03  6.530E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   7.3190400E-09
 tau,T,Pe,Pg,ro  32  1.255E-01   4496.9  1.805E-01  2.160E+03  7.319E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   8.1942311E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   8.1938092E-09
 tau,T,Pe,Pg,ro  33  1.556E-01   4558.6  2.101E-01  2.451E+03  8.194E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   9.1602343E-09
+ MARCS model. romod=   0.0000000E+00 rocalc=   9.1597734E-09
 tau,T,Pe,Pg,ro  34  1.930E-01   4628.0  2.457E-01  2.782E+03  9.160E-09
- MARCS model. romod=   0.0000000E+00 rocalc=   1.0220379E-08
-tau,T,Pe,Pg,ro  35  2.391E-01   4706.6  2.894E-01  3.157E+03  1.022E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.1376231E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.0219851E-08
+tau,T,Pe,Pg,ro  35  2.391E-01   4706.6  2.894E-01  3.156E+03  1.022E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.1375579E-08
 tau,T,Pe,Pg,ro  36  2.961E-01   4795.4  3.447E-01  3.580E+03  1.138E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.2615840E-08
-tau,T,Pe,Pg,ro  37  3.662E-01   4896.0  4.183E-01  4.053E+03  1.262E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.3909150E-08
-tau,T,Pe,Pg,ro  38  4.526E-01   5009.8  5.233E-01  4.573E+03  1.391E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.5205405E-08
-tau,T,Pe,Pg,ro  39  5.589E-01   5137.9  6.845E-01  5.127E+03  1.521E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.6421167E-08
-tau,T,Pe,Pg,ro  40  6.901E-01   5281.7  9.471E-01  5.692E+03  1.642E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.7470459E-08
-tau,T,Pe,Pg,ro  41  8.521E-01   5442.9  1.392E+00  6.241E+03  1.747E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.8281295E-08
-tau,T,Pe,Pg,ro  42  1.053E+00   5623.5  2.169E+00  6.748E+03  1.828E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.8808885E-08
-tau,T,Pe,Pg,ro  43  1.301E+00   5826.2  3.555E+00  7.195E+03  1.881E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.9042448E-08
-tau,T,Pe,Pg,ro  44  1.608E+00   6053.3  6.069E+00  7.570E+03  1.904E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.9006853E-08
-tau,T,Pe,Pg,ro  45  1.982E+00   6307.3  1.069E+01  7.878E+03  1.901E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.8716628E-08
-tau,T,Pe,Pg,ro  46  2.437E+00   6590.8  1.927E+01  8.114E+03  1.872E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.8216866E-08
-tau,T,Pe,Pg,ro  47  2.984E+00   6908.8  3.540E+01  8.294E+03  1.822E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.7505124E-08
-tau,T,Pe,Pg,ro  48  3.635E+00   7273.9  6.681E+01  8.423E+03  1.751E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.6817376E-08
-tau,T,Pe,Pg,ro  49  4.408E+00   7611.9  1.141E+02  8.515E+03  1.682E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.6337477E-08
-tau,T,Pe,Pg,ro  50  5.336E+00   7856.7  1.634E+02  8.587E+03  1.634E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.5991272E-08
-tau,T,Pe,Pg,ro  51  6.468E+00   8042.2  2.115E+02  8.651E+03  1.599E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.5523542E-08
-tau,T,Pe,Pg,ro  52  9.592E+00   8322.0  3.055E+02  8.783E+03  1.552E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.5178822E-08
-tau,T,Pe,Pg,ro  53  1.441E+01   8552.4  4.063E+02  8.925E+03  1.518E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.4905545E-08
-tau,T,Pe,Pg,ro  54  2.193E+01   8762.2  5.200E+02  9.090E+03  1.491E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.4683007E-08
-tau,T,Pe,Pg,ro  55  3.374E+01   8964.7  6.526E+02  9.290E+03  1.468E-08
- MARCS model. romod=   0.0000000E+00 rocalc=   1.4494795E-08
-tau,T,Pe,Pg,ro  56  5.240E+01   9167.5  8.107E+02  9.530E+03  1.449E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.2614943E-08
+tau,T,Pe,Pg,ro  37  3.662E-01   4896.0  4.183E-01  4.053E+03  1.261E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.3907809E-08
+tau,T,Pe,Pg,ro  38  4.526E-01   5009.8  5.233E-01  4.572E+03  1.391E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.5203362E-08
+tau,T,Pe,Pg,ro  39  5.589E-01   5137.9  6.845E-01  5.126E+03  1.520E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.6418156E-08
+tau,T,Pe,Pg,ro  40  6.901E-01   5281.7  9.471E-01  5.691E+03  1.642E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.7466341E-08
+tau,T,Pe,Pg,ro  41  8.521E-01   5442.9  1.392E+00  6.240E+03  1.747E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.8276095E-08
+tau,T,Pe,Pg,ro  42  1.053E+00   5623.5  2.169E+00  6.746E+03  1.828E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.8802808E-08
+tau,T,Pe,Pg,ro  43  1.301E+00   5826.2  3.555E+00  7.192E+03  1.880E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.9035763E-08
+tau,T,Pe,Pg,ro  44  1.608E+00   6053.3  6.069E+00  7.568E+03  1.904E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.8999835E-08
+tau,T,Pe,Pg,ro  45  1.982E+00   6307.3  1.069E+01  7.875E+03  1.900E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.8709512E-08
+tau,T,Pe,Pg,ro  46  2.437E+00   6590.8  1.927E+01  8.111E+03  1.871E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.8209825E-08
+tau,T,Pe,Pg,ro  47  2.984E+00   6908.8  3.540E+01  8.291E+03  1.821E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.7498321E-08
+tau,T,Pe,Pg,ro  48  3.635E+00   7273.9  6.681E+01  8.419E+03  1.750E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.6810842E-08
+tau,T,Pe,Pg,ro  49  4.408E+00   7611.9  1.141E+02  8.511E+03  1.681E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.6331157E-08
+tau,T,Pe,Pg,ro  50  5.336E+00   7856.7  1.634E+02  8.583E+03  1.633E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.5985115E-08
+tau,T,Pe,Pg,ro  51  6.468E+00   8042.2  2.115E+02  8.648E+03  1.599E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.5517637E-08
+tau,T,Pe,Pg,ro  52  9.592E+00   8322.0  3.055E+02  8.780E+03  1.552E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.5173114E-08
+tau,T,Pe,Pg,ro  53  1.441E+01   8552.4  4.063E+02  8.922E+03  1.517E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.4900022E-08
+tau,T,Pe,Pg,ro  54  2.193E+01   8762.2  5.200E+02  9.087E+03  1.490E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.4677650E-08
+tau,T,Pe,Pg,ro  55  3.374E+01   8964.7  6.526E+02  9.287E+03  1.468E-08
+ MARCS model. romod=   0.0000000E+00 rocalc=   1.4489622E-08
+tau,T,Pe,Pg,ro  56  5.240E+01   9167.5  8.107E+02  9.527E+03  1.449E-08
   CONTROLE: k, R, tau, log10tau, T
            1  1.1729501E+12  3.9183215E-05  -4.406900       3304.300    
            2  1.1721301E+12  6.0520142E-05  -4.218100       3358.700    
@@ -754,6 +754,7 @@ tau,T,Pe,Pg,ro  56  5.240E+01   9167.5  8.107E+02  9.530E+03  1.449E-08
  01.000000                 
 species: 01.000000         H                    iel:        1 ion:  1 isotopes:   0
  nlines          133
+ Will use Stehle's tables for Hydrogen line profiles
   starting scan of linelist
     3.000                  
  after getlele:            3 Li                  
@@ -1391,4 +1392,4 @@ species: 0822.000048       TiO                  iel:      822 ion:  1 isotopes: 
   CENTRAL WAVELENGTH=  6710.000 A
  now solve
         1415  lines in the interval
-Fri Mar 15 11:39:49 CET 2019
+Thu Apr 25 18:11:11 CEST 2019
