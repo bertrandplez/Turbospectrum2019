@@ -48,7 +48,7 @@ C
       real FAKTP(ifadim)
       real SUMW(NDP)
       real tioabs(ndp),h2oabs(ndp)
-      real iread, iwrit
+      integer iread, iwrit
       COMMON/UTPUT/IREAD,IWRIT
       real abkof
       integer kompla,kompr,komps,nkomp
