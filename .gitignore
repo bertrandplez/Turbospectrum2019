@@ -23,8 +23,9 @@ babsma_lu
 *.dll
 
 # Fortran module files
-*.mod
-*.smod
+#*.mod
+cubint_module.mod
+#*.smod
 
 # Compiled Static libraries
 *.lai
