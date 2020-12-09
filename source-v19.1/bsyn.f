@@ -52,11 +52,11 @@
       doubleprecision XL1,XL2,DEL,XLMARG,XL1L,XL2R,XLBOFF,XLB
       doubleprecision xlb_vshifted(ndp),lshift(ndp)
       CHARACTER*20 LELE
-      real newvoigt
+      real newvoigt,gamst
 
       COMMON/POP/ N(NDP),A(NDP),DNUD(NDP),STIM(NDP),QUO(NDP),DBVCON
       COMMON/ATOM/ XL,MA,CHI,CHI2,chi3,CHIE,G,IDAMP,FDAMP,
-     &             GAMRAD,ALOGC6,ION
+     &             GAMRAD,ALOGC6,ION,gamst
       COMMON/ATMOS/ T(NDP),PE(NDP),PG(NDP),XI(NDP),MUM(NDP),RO(NDP),NTAU
       logical hydrovelo,debug,infoonly,computeIplus
       real velocity
@@ -175,7 +175,7 @@
 ***********************************************
       data debug/.false./
       data nat/92/
-      logical newformat
+      logical newformat,starkformat
       character oneline*256
 
 ccc      external commn_handler
@@ -735,9 +735,9 @@ ccc        CALL ATOMDA(IEL,LELE,CHI,CHI2,MAM,ABUNP)
 *
 * Test for molecular list format
 * allows backward compatibility for pre-v14.1 format molecular line lists
+        read(lunit,'(a)') oneline
+        backspace(lunit)
         if (iel.gt.92) then
-          read(lunit,'(a)') oneline
-          backspace(lunit)
           read(oneline,*,err=11,end=11) xlb,chie,gfelog,fdamp,gu,raddmp,
      &                levlo,levup
           newformat=.true.
@@ -745,7 +745,21 @@ ccc        CALL ATOMDA(IEL,LELE,CHI,CHI2,MAM,ABUNP)
 11        newformat=.false.
 12        continue 
         else
+!
+! Test for atomic line list format, with or without Stark broadening parameter
+! gamst
+          read(oneline,*,err=8,end=8) xlb,chie,gfelog,fdamp,gu,raddmp,
+     &                gamst,levlo,levup
+          starkformat=.true.
           newformat=.true.
+          goto 14
+8         starkformat=.false.
+          read(oneline,*,err=13,end=13) xlb,chie,gfelog,fdamp,gu,raddmp,
+     &                levlo,levup
+          newformat=.true.
+          goto 14
+13        newformat=.false.
+14        continue
         endif
           
 * Start wavelength loop
@@ -790,7 +804,13 @@ ccc        CALL ATOMDA(IEL,LELE,CHI,CHI2,MAM,ABUNP)
 *
 * new format for molecules, identical to that for atoms, starting with v14.1
         if (newformat) then
-          read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp,levlo,levup
+          if (starkformat) then
+            read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp,gamst,
+     &                      levlo,levup
+          else
+            read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp,levlo,levup
+            gamst=0.
+          endif
         else
 * allows backward compatibility for older format molecular line lists
           read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp
