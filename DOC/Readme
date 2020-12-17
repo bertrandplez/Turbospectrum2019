@@ -825,6 +825,52 @@ stehle.dat.DEC
 bpo_self.grid.SUN
 bpo_self.grid.DEC
 
+
+BPz 9/12-2020:
+Inclusion of Stark broadening, and small corrections/additions.
+Example line list in COM-v19.1/linelists/CaI_lte_linelist.dat
+The reading statement is 
+            if (starkformat) then
+              read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp,gamst,
+     &                      levlo,levup
+            else
+              read(lunit,*) xlb,chie,gfelog,fdamp,gu,raddmp,levlo,levup
+            endif
+The relevant parameter is gamst, which in the example below is 0.000 for the first 2 lines and the fourth, and -6.031 for the third.
+
+'  20.000            '    1       317
+'Ca I    LTE'
+  4201.066  2.933 -4.203   -6.750    5.0  2.82E+08  0.000  'p' 's'   0.0    1.0 'Ca I LS:3p6.4s.4p 1P* LS:3p6.3d.5s 1D' 
+  4203.117  2.933 -2.107   -6.760    1.0  2.88E+08  0.000  'p' 's'   0.0    1.0 'Ca I LS:3p6.4s.4p 1P* LS:3p6.4s.10s 1S'
+  4226.730  0.000 0.276  372.238    3.0  2.352E+08  -6.031  's' 'p'   0.0    1.0 'Ca I LS:3p6.4s2 1S LS:3p6.4s.4p 1P*'
+  4238.930  2.523 -5.223   -7.180    3.0  7.41E+07  0.000  's' 'p'   0.0    1.0 'Ca I LS:3p6.3d.4s 3D LS:3p6.4s.np 1P*'
+
+gamst is used in the routine depth.f :
+If gamst = 0, there is an approximation from * Cowley C.R. 1971, The Observatory 91, 139
+If gamst < 0, e.g. as it is tabulated in VALD, or Kurucz line lists, it is scaled according to:
+
+          tempstark=(temp/10000.)**(1./6.)
+          xne=pe(i)/boltz/temp
+          if (gamst.lt.0.0) then
+            gamst=10.**gamst
+          endif
+          if(gamst.ne.0.0) then
+* temperature scaling if the Stark width was given
+            gamstark=gamst*tempstark*xne
+
+
+modified routines:
+------------------
+../source-v19.1/depth.f
+../source-v19.1/pemake.f
+../source-v19.1/pemakero.f
+../source-v19.1/traneq.f
+../source-v19.1/eqmol_pe_lu.f
+../source-v19.1/gausi.f
+../source-v19.1/eqwidt.f
+../source-v19.1/hbop.f
+../source-v19.1/bsyn.f
+
 ----------------------------
 ---- ACKNOWLEDGEMENTS ------
 ----------------------------
