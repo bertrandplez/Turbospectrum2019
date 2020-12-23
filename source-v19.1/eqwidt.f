@@ -122,7 +122,8 @@
       common/rhotsu/ rhotsuji,xmytsuji,ejontsuji
 
       logical dattsuji,datspherical,datlimbdark,databfind,abfind,
-     &        datmultidump,datxifix,datmrxf,dathydrovelo,datpureLTE
+     &        datmultidump,datxifix,datmrxf,dathydrovelo,datpureLTE,
+     &        purelte
       integer datnoffil,datncore,datmaxfil,datmihal,datiint
       real    isoch(1000),isochfact(1000),datisoch(1000),
      &        datisochfact(1000)
