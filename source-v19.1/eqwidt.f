@@ -239,7 +239,8 @@ ccc      external commn_handler
       xlboff=datxlboff
       iint=datiint
       xmyc=datxmyc
-      purelte=datpurelte
+
+!       purelte=datpurelte   ! not used, and causing trouble with gfortran
 
       print*,' EQWIDT CHECK: xl1= ',xl1
       print*,' EQWIDT CHECK: xl2= ',xl2
