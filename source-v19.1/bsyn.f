@@ -738,6 +738,7 @@ ccc        CALL ATOMDA(IEL,LELE,CHI,CHI2,MAM,ABUNP)
         read(lunit,'(a)') oneline
         backspace(lunit)
         if (iel.gt.92) then
+          starkformat=.false.
           read(oneline,*,err=11,end=11) xlb,chie,gfelog,fdamp,gu,raddmp,
      &                levlo,levup
           newformat=.true.
