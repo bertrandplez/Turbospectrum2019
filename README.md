@@ -9,3 +9,4 @@ see: http://adsabs.harvard.edu/abs/2012ascl.soft05004P
 Further development of the code is made in a private repository, although the public repository has not been archived and is open to changes by anyone.
 
 In December 2020, Stark broadening was added, and a new release added: v19.1.3
+A modification was added in February 2021, but no new release created. So you should update the code right after installing it from the latest release (Dec. 2020)
