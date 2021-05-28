@@ -10,4 +10,4 @@ Further development of the code is made in a private repository, although the pu
 
 In December 2020, Stark broadening was added, and a new release added: v19.1.3
 
-A modification was added in February 2021, but no new release created. So you should update the code right after installing it from the latest release (Dec. 2020)
+New release on May 28, 2021 with a few small bug corrections: v19.1.4
