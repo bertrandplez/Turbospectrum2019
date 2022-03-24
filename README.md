@@ -11,3 +11,6 @@ Further development of the code is made in a private repository, although the pu
 In December 2020, Stark broadening was added, and a new release added: v19.1.3
 
 New release on May 28, 2021 with a few small bug corrections: v19.1.4
+
+2022-Mar-24: Modification of a couple of read statements in bsyn.f avoiding a crash with older ifort version. Following a suggestion by Matthias Steffen.
+No new release created. Update by downloading the latest version of the routine.
