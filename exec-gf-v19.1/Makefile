@@ -169,12 +169,12 @@ cubint_module.mod : ../$(SOURCE)/cubint_module.f90 cubint_module.o
 cubint_module.o : ../${SOURCE}/cubint_module.f90
 	$(F)  -c ../${SOURCE}/cubint_module.f90
 
-babsma_lu : $(babsma_luobj)
+babsma_lu : $(babsma_luobj) $(include1) $(include2)
 	$(F) $(LINKOPT) -o babsma_lu $(babsma_luobj)
 
-bsyn_lu: $(bsyn_luobj)
+bsyn_lu: $(bsyn_luobj) $(include1) $(include2)
 	$(F) $(LINKOPT) -o bsyn_lu  $(bsyn_luobj)
  
-eqwidt_lu: $(eqwidt_luobj)
+eqwidt_lu: $(eqwidt_luobj) $(include1) $(include2)
 	$(F) $(LINKOPT) -o eqwidt_lu  $(eqwidt_luobj)
  

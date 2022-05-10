@@ -904,9 +904,9 @@ ccccc	      if (mocode.ne.'bowe'.or.mocode.ne.'BOWE') then
 C
 * guess input pg to help eqmol_pe.
             pg=pgl(k)
-            print*,'babsma, alva, call jon'
+c            print*,'babsma, call jon'
             call jon(T(K),pe(k),-1,PG,RO,DUM,IO,k)
-            print*,'return from jon, pg=',pg
+c            print*,'return from jon, pg=',pg
 ccc unecessary ?
 C try to improve convergence
             pefirst=pe(k)
@@ -920,7 +920,7 @@ c not converged in jon
             do while (pg.lt.0..and.pe(k).lt.1000.)
 c not converged in jon
               pe(k)=pe(k)*10.
-              print*,'babsma, trying with lower Pe:',pe
+              print*,'babsma, trying with higher Pe:',pe
               call jon(T(K),pe(k),-1,PG,RO,DUM,IO,k)
             enddo
             if (pg.lt.0.) then
