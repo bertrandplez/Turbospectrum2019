@@ -17,5 +17,7 @@ No new release created. You may update by downloading the latest version of the 
 
 2022-May-10: The modifications of March 24 were removed, due to problems arising with modern compilers. A couple of small changes added elsewhere.
 
+2022-May-17: release v19.1.5 created
+
 Further development of the code with NLTE capability (v20) is currently made in a private repository, soon to become public (2022). 
 The v19 public repository has not been archived, and is open to improvements by anyone.
