@@ -70,6 +70,7 @@ ccc      READ(12,100) MCODE,NTAU,XLS
          CALL LINT(NLQ,XLP,SS,xxll,absoscont(K,j))
         enddo
 *        
+        mmm=0
         XI(K)=XI(K)*1.E5
         TAULN(K)=ALOG(TAU(K))
         if (tau(k)-1..lt.0.1) mmm=k
@@ -78,6 +79,10 @@ ccc      READ(12,100) MCODE,NTAU,XLS
         IF(K.EQ.1) GOTO 11
         DTAULN(K)=TAULN(K)-TAULN(K-1)
   11  CONTINUE
+      if (mmm.eq.0) then
+        print*,'problem finding radius in readmo.f'
+        stop 'error'
+      endif
       RADIUS=RR(mmm)
       REWIND 12
       JTAU=NTAU

@@ -529,6 +529,13 @@ cc      if (xlboff.lt.1.e-6) xlboff=0.0
 **        print*,'WARNING! Swaping to PP transfer!'
 **        spherical=.false.
       endif
+      if (spherical) then
+        print*,'*****'
+        print*,'Radius for normalizing the flux: ',radius,'cm'
+        print*,'The luminosity can be computed by multiplying the ',
+     &      'integrated flux with 4*pi*radius^2'
+        print*,'*****'
+      endif
 *
 * initiate total extinction
       do j=1,maxlam
