@@ -45,6 +45,7 @@ ccc      READ(12,100) MCODE,NTAU,XLS
          stop
       endif
       READ(12,104) (XLP(I), I=1,NLQ)
+      mmm=0
       DO 11 K=1,NTAU
         if (hydrovelo) then
           READ(12,*,err=99) RR(K),TAU(K),T(K),PE(K),PG(K),
@@ -70,10 +71,9 @@ ccc      READ(12,100) MCODE,NTAU,XLS
          CALL LINT(NLQ,XLP,SS,xxll,absoscont(K,j))
         enddo
 *        
-        mmm=0
         XI(K)=XI(K)*1.E5
         TAULN(K)=ALOG(TAU(K))
-        if (tau(k)-1..lt.0.1) mmm=k
+        if (tau(k)-1..lt.0.2) mmm=k
         MUM(K)=(1.38*RO(K)*T(K))/(1.67E-08*PG(K))
         RHO(K)=RO(K)
         IF(K.EQ.1) GOTO 11
