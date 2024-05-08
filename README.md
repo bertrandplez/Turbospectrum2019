@@ -6,6 +6,10 @@ Plez, B., 2012, Astrophysics Source Code Library, record ascl:1205.004
 
 see: http://adsabs.harvard.edu/abs/2012ascl.soft05004P
 
+### I recommend use of [Turbospectrum NLTE](https://github.com/bertrandplez/Turbospectrum_NLTE)
+### 
+### TS2019 is not updated anymore
+
 In December 2020, Stark broadening was added, and a new release added: v19.1.3
 
 New release on May 28, 2021 with a few small bug corrections: v19.1.4
@@ -19,7 +23,7 @@ No new release created. You may update by downloading the latest version of the 
 
 2022-May-17: release v19.1.5 created
 
-Further development of the code with NLTE capability (v20) has been made and is avalable at:  https://github.com/bertrandplez/Turbospectrum_NLTE. 
+Further development of the code with NLTE capability (v20) has been made and is available at:  https://github.com/bertrandplez/Turbospectrum_NLTE. 
 
 The v19 public repository has not been archived, and is open to improvements by anyone. However, We recommend to implement new features, input data, wrappers, etc for the NLTE version (which is backward compatible), as it is the version that will continue to evolve, while the v19 will probably become a legacy version.
 
